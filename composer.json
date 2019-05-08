@@ -1,0 +1,14 @@
+{
+	"autoload" : {
+		"psr-4" : {
+			"nt98memo\\ownlib\\" : "src/nt98memo/ownlib/"
+		}
+	},
+	"type": "library",
+	"name" : "nt98memo/ownlib",
+	"version":"1.1",
+	"require" : {
+		"php" : ">=5.6",
+		"monolog/monolog": "^1.24"
+	}
+}
